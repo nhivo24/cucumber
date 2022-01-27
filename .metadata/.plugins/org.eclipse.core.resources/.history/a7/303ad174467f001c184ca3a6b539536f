@@ -1,0 +1,9 @@
+Feature: Login Feature
+  Verify if user is able to Login in to the site
+
+  Scenario: Login an account successfully
+    Given user is on home page
+    When I click customer login
+    And I select my name
+    Then user submit information
+   

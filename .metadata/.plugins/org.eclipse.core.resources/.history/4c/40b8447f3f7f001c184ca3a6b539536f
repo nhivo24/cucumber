@@ -1,0 +1,14 @@
+Feature: Add new customer feature
+  Verify if user is able to add new customer in to the site
+
+Scenario Outline: Add New Customer
+Given user navigate website
+And user enters Firstname as <Firstname>
+And user enters Lastname as <Lastname>
+And user enters Postcode as <Postcode>
+Then user submit information
+Examples:
+|Firstname|Lastname|Postcode|
+|Vo       |Nhi     |500000  |
+|1        |22      |abc     |
+

@@ -1,0 +1,7 @@
+Feature: Login Feature
+  Verify if user is able to Login in to the site
+
+  Scenario: Profile updated successfully
+    Given user is on home page
+    When user input Image, Name, Email, Website, Experience, Expertise, Education, click Alert and Comment
+    Then user submit information
